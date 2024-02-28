@@ -1,0 +1,40 @@
+{
+  "name": "aru-portfolio",
+  "private": true,
+  "description": "Portfolio website developed using Gatsby.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build --prefix-paths",
+    "clean": "gatsby clean",
+    "deploy": "npm run clean && npm run build && gh-pages -d public",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/inter": "^4.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "@mui/styles": "^5.10.8",
+    "gatsby": "^4.0.0",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^2.2.0",
+    "gatsby-plugin-sharp": "^4.2.0",
+    "gatsby-source-filesystem": "^4.2.0",
+    "gatsby-transformer-sharp": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.7.1"
+  }
+}

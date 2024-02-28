@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-3f0a6ad572443d0ebc9b.js","mappings":"uIAMA,UAJA,WACE,OAAO,wCACT,C","sources":["webpack://aru-portfolio/./src/pages/404.js"],"sourcesContent":["import React from \"react\";\n\nfunction NotFound() {\n  return <div>Not Found!</div>;\n}\n\nexport default NotFound;\n"],"names":[],"sourceRoot":""}
